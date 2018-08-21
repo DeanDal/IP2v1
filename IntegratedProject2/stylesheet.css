@@ -1,0 +1,131 @@
+html{
+	background:url('loch_lomond2.jpg') no-repeat center center;
+	background-attachment: fixed;
+	min-height:100%;
+	background-size:cover;
+}
+body {
+    color: #ffffff;
+	font-size: 18px;
+}
+p{
+	margin-left: 12px;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+h1 {
+    font-size: 72px;
+	margin-left: 2px;
+    font-weight: lighter;
+	text-align: center;
+}
+h2 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: lighter;
+	margin-left: 8px;
+}
+a:link, a:visited {
+	color:#ffc000;
+}
+a:hover {
+	color: #99b2ff;
+	background: #000080;
+}
+a:active {
+	color:green;
+}
+
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	z-index: 100; /*always on top*/
+	background: gray;
+	list-style: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.dropdownmenu a {
+	background: rgba(102, 102, 102, 0.6);
+	color: #FFFFFF;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.dropdownmenu li:hover a {
+	background: #000000;
+	opacity: 1;
+}
+li.login {
+	position: fixed;
+	right: 0px;
+}
+
+.fadein { 
+	position: relative; 
+    display: block;
+    margin: 0 auto;
+	width: 1100px;
+	height:619px; 
+	margin-bottom: 60px;
+}
+.fadein img { 
+	position: absolute; 
+	display: block;
+	width: 1100px;
+	height:619px; 
+    display: block;
+    margin: 0 auto;
+	top:0; 
+	margin-bottom: 60px;
+}
+
+.panels {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	border: 0px;
+	padding: 30px;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(147, 209, 209, 0.5)
+}
+a.botbar:link, a.botbar:hover, a.botbar:visited {
+	color: #ffffff;
+	background: 0;
+	text-decoration: none;
+}
+.about, .news{
+	float:left;
+	padding: 25px;
+}
+
+.about {
+	
+	max-width: 40%;
+}
+.news {
+	
+	right:0px;
+	max-width: 50%;
+}
